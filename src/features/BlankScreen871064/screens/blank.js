@@ -147,7 +147,7 @@ export class _Blank extends React.Component {
       </Text>
       <Text
         style={{
-          paddingBottom: 390,
+          paddingBottom: 380,
           overflow: "visible",
           textAlign: "left",
           verticalAlign: "baseline",
