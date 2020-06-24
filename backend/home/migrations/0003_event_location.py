@@ -7,26 +7,51 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0002_load_initial_data'),
+        ("home", "0002_load_initial_data"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Location',
+            name="Location",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('roomName', models.TextField()),
-                ('roomNumber', models.IntegerField()),
-                ('floorNumber', models.IntegerField()),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("roomName", models.TextField()),
+                ("roomNumber", models.IntegerField()),
+                ("floorNumber", models.IntegerField()),
             ],
         ),
         migrations.CreateModel(
-            name='Event',
+            name="Event",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('dateTime', models.DateTimeField()),
-                ('description', models.TextField(blank=True, null=True)),
-                ('location', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='event_location', to='home.Location')),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("dateTime", models.DateTimeField()),
+                ("description", models.TextField(blank=True, null=True)),
+                (
+                    "location",
+                    models.ForeignKey(
+                        blank=True,
+                        null=True,
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="event_location",
+                        to="home.Location",
+                    ),
+                ),
             ],
         ),
     ]

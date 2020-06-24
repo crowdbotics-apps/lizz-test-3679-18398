@@ -51,3 +51,4 @@ class Event(models.Model):
         blank=True,
         related_name="event_location",
     )
+    title = models.CharField(max_length=256, null=True, blank=True,)
