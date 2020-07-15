@@ -24,7 +24,8 @@ export class _Blank extends React.Component {
     Toggle_17: true,
     CheckBox_95: true,
     Radio_96: true,
-    Input_98: ""
+    Input_98: "",
+    Input_209: ""
   }
 
   render = () => (
@@ -172,13 +173,12 @@ export class _Blank extends React.Component {
           overflow: "visible",
           textAlign: "left",
           verticalAlign: "baseline",
-          borderColor: "#000000",
+          borderColor: "#1eb201",
           borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
+          borderLeftWidth: 3,
+          borderRightWidth: 1,
+          borderTopWidth: 4,
+          borderBottomWidth: 2,
           borderRadius: 0
         }}
       />
@@ -215,33 +215,6 @@ export class _Blank extends React.Component {
         }}
         value={this.state.Input_15}
         onChangeText={nextValue => this.setState({ Input_15: nextValue })}
-      />
-      <Slider
-        value={50}
-        minimumValue={0}
-        maximumValue={100}
-        step={1}
-        disabled={false}
-        style={{
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 5,
-          marginBottom: 5,
-          paddingLeft: 5,
-          paddingRight: 5,
-          paddingTop: 5,
-          paddingBottom: 5,
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          borderColor: "#1eb201",
-          borderStyle: "solid",
-          borderLeftWidth: 3,
-          borderRightWidth: 1,
-          borderTopWidth: 4,
-          borderBottomWidth: 2,
-          borderRadius: 0
-        }}
       />
       <Toggle
         text="switch ON/OFF"
@@ -356,6 +329,39 @@ export class _Blank extends React.Component {
         }}
         value={this.state.Input_98}
         onChangeText={nextValue => this.setState({ Input_98: nextValue })}
+      />
+      <Input
+        placeholder="Sample text input placeholder"
+        editable={true}
+        textStyle={{ fontSize: 20, color: "#000000" }}
+        style={{
+          width: "100%",
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          fontSize: 20,
+          color: "#000000",
+          backgroundColor: "#ffffff",
+          fontStyle: "normal",
+          fontWeight: "normal",
+          borderColor: "#eebaba",
+          borderStyle: "solid",
+          borderLeftWidth: 3,
+          borderRightWidth: 2,
+          borderTopWidth: 1,
+          borderBottomWidth: 4,
+          borderRadius: 0
+        }}
+        value={this.state.Input_209}
+        onChangeText={nextValue => this.setState({ Input_209: nextValue })}
       />
     </View>
   )
