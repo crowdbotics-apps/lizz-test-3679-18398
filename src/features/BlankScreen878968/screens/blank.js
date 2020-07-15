@@ -132,7 +132,70 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        />
+        >
+          <Icon
+            iconFont="Eva Design Icons"
+            name="github"
+            width={20}
+            height={20}
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: 5,
+              marginBottom: 5,
+              paddingLeft: 5,
+              paddingRight: 5,
+              paddingTop: 5,
+              paddingBottom: 5,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0,
+              fontSize: 20,
+              color: "#000000",
+              backgroundColor: "#ffffff",
+              fontStyle: "normal",
+              fontWeight: "normal"
+            }}
+          />
+          <Text
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: 5,
+              marginBottom: 5,
+              paddingLeft: 5,
+              paddingRight: 5,
+              paddingTop: 5,
+              paddingBottom: 5,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 20,
+              color: "#000000",
+              backgroundColor: "#ffffff",
+              fontStyle: "normal",
+              fontWeight: "normal",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0
+            }}
+          >
+            Sample text content
+          </Text>
+        </View>
         <View
           style={{
             width: "25%",
