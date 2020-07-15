@@ -193,7 +193,7 @@ export class _Blank extends React.Component {
               borderRadius: 0
             }}
           >
-            Sample text content
+            Sample text contentd
           </Text>
         </View>
         <View
