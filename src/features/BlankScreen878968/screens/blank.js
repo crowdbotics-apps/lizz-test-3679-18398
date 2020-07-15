@@ -225,7 +225,66 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        />
+        >
+          <Icon
+            iconFont="Eva Design Icons"
+            name="car-outline"
+            width={20}
+            height={20}
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              paddingLeft: 5,
+              paddingRight: 5,
+              paddingTop: 5,
+              paddingBottom: 5,
+              overflow: "visible",
+              textAlign: "center",
+              verticalAlign: "baseline",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0,
+              fontSize: 20,
+              color: "#ffffff",
+              fontStyle: "normal",
+              fontWeight: "normal"
+            }}
+          />
+          <Text
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: -5,
+              marginBottom: 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
+              overflow: "visible",
+              textAlign: "center",
+              verticalAlign: "baseline",
+              fontSize: 10,
+              color: "#ffffff",
+              fontStyle: "normal",
+              fontWeight: "normal",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0
+            }}
+          >
+            Vendors
+          </Text>
+        </View>
         <View
           style={{
             width: "20%",
@@ -260,7 +319,66 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        />
+        >
+          <Icon
+            iconFont="Eva Design Icons"
+            name="star"
+            width={20}
+            height={20}
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              paddingLeft: 5,
+              paddingRight: 5,
+              paddingTop: 5,
+              paddingBottom: 5,
+              overflow: "visible",
+              textAlign: "center",
+              verticalAlign: "baseline",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0,
+              fontSize: 20,
+              color: "#ffffff",
+              fontStyle: "normal",
+              fontWeight: "normal"
+            }}
+          />
+          <Text
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: -5,
+              marginBottom: 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
+              overflow: "visible",
+              textAlign: "center",
+              verticalAlign: "baseline",
+              fontSize: 10,
+              color: "#ffffff",
+              fontStyle: "normal",
+              fontWeight: "normal",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0
+            }}
+          >
+            Sponsors
+          </Text>
+        </View>
         <View
           style={{
             width: "20%",
@@ -295,7 +413,66 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        />
+        >
+          <Icon
+            iconFont="Eva Design Icons"
+            name="calendar"
+            width={20}
+            height={20}
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              paddingLeft: 5,
+              paddingRight: 5,
+              paddingTop: 5,
+              paddingBottom: 5,
+              overflow: "visible",
+              textAlign: "center",
+              verticalAlign: "baseline",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0,
+              fontSize: 20,
+              color: "#ffffff",
+              fontStyle: "normal",
+              fontWeight: "normal"
+            }}
+          />
+          <Text
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: -5,
+              marginBottom: 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
+              overflow: "visible",
+              textAlign: "center",
+              verticalAlign: "baseline",
+              fontSize: 10,
+              color: "#ffffff",
+              fontStyle: "normal",
+              fontWeight: "normal",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0
+            }}
+          >
+            Schedule
+          </Text>
+        </View>
         <View
           style={{
             width: "20%",
@@ -330,7 +507,66 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        />
+        >
+          <Icon
+            iconFont="Eva Design Icons"
+            name="map"
+            width={20}
+            height={20}
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              paddingLeft: 5,
+              paddingRight: 5,
+              paddingTop: 5,
+              paddingBottom: 5,
+              overflow: "visible",
+              textAlign: "center",
+              verticalAlign: "baseline",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0,
+              fontSize: 20,
+              color: "#ffffff",
+              fontStyle: "normal",
+              fontWeight: "normal"
+            }}
+          />
+          <Text
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: -5,
+              marginBottom: 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
+              overflow: "visible",
+              textAlign: "center",
+              verticalAlign: "baseline",
+              fontSize: 10,
+              color: "#ffffff",
+              fontStyle: "normal",
+              fontWeight: "normal",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0
+            }}
+          >
+            Map
+          </Text>
+        </View>
       </View>
     </View>
   )
